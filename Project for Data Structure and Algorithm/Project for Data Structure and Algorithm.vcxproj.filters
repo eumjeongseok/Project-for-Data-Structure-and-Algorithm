@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\1. 스택">
+      <UniqueIdentifier>{ea3707f7-c854-4a07-bbbb-f2bdf95c3178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 큐와 덱">
+      <UniqueIdentifier>{a3be4a1c-04ca-4967-9f95-ddcb75b1e6ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3. 리스트">
+      <UniqueIdentifier>{2e904fd2-02f8-4f75-8463-82188a7550f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4. 트리">
+      <UniqueIdentifier>{0aabc656-eef5-409d-a681-153b3cd472e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5. 이진탐색트리">
+      <UniqueIdentifier>{f66b0a59-b4b2-44de-ab12-e61987851e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\6. 우선순위 큐%28힙%29">
+      <UniqueIdentifier>{d430c57f-f1c9-45cf-b49c-8e40189bcb22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\7. 그래프 이론">
+      <UniqueIdentifier>{9dc650a5-7669-4dbd-b479-3d8fde3b541d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\8. 가중치 그래프">
+      <UniqueIdentifier>{fcb04c03-b60e-4cc8-af01-4c585d408860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\9. 정렬 알고리즘">
+      <UniqueIdentifier>{efd97cab-42ca-4cd4-b2bc-be796a716d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10. 탐색 알고리즘">
+      <UniqueIdentifier>{47e5e851-d7cc-42aa-8aea-2a42a5bc8e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11. 해싱">
+      <UniqueIdentifier>{775c5450-3a2b-4d66-a563-cee87c81fd4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\12. 기타">
+      <UniqueIdentifier>{26a83615-3f1f-4a20-af89-bc5a3afc29f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="개요.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="기본적인스택구현.cpp">
+      <Filter>소스 파일\1. 스택</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호짝검사A_기본괄호검사.cpp">
+      <Filter>소스 파일\1. 스택</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호짝검사B_작은따옴표처리.cpp">
+      <Filter>소스 파일\1. 스택</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호짝검사C_큰따옴표처리.cpp">
+      <Filter>소스 파일\1. 스택</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호짝검사D_주석처리반영.cpp">
+      <Filter>소스 파일\1. 스택</Filter>
+    </ClCompile>
+    <ClCompile Include="수식계산프로그램_후위수식변환과계산.c">
+      <Filter>소스 파일\1. 스택</Filter>
+    </ClCompile>
+    <ClCompile Include="원형큐.cpp">
+      <Filter>소스 파일\2. 큐와 덱</Filter>
+    </ClCompile>
+    <ClCompile Include="원형덱.cpp">
+      <Filter>소스 파일\2. 큐와 덱</Filter>
+    </ClCompile>
+    <ClCompile Include="미팅주선프로그램.cpp">
+      <Filter>소스 파일\2. 큐와 덱</Filter>
+    </ClCompile>
+    <ClCompile Include="정렬가능여부프로그램.cpp">
+      <Filter>소스 파일\2. 큐와 덱</Filter>
+    </ClCompile>
+    <ClCompile Include="미로찾기_BFS.cpp">
+      <Filter>소스 파일\2. 큐와 덱</Filter>
+    </ClCompile>
+    <ClCompile Include="토이편집기.cpp">
+      <Filter>소스 파일\2. 큐와 덱</Filter>
+    </ClCompile>
+    <ClCompile Include="희소다항식.cpp">
+      <Filter>소스 파일\3. 리스트</Filter>
+    </ClCompile>
+    <ClCompile Include="라인편집기.cpp">
+      <Filter>소스 파일\3. 리스트</Filter>
+    </ClCompile>
+    <ClCompile Include="이진트리기본.cpp">
+      <Filter>소스 파일\4. 트리</Filter>
+    </ClCompile>
+    <ClCompile Include="이진탐색트리A_균형확인.cpp">
+      <Filter>소스 파일\5. 이진탐색트리</Filter>
+    </ClCompile>
+    <ClCompile Include="이진탐색트리B_경로의합.cpp">
+      <Filter>소스 파일\5. 이진탐색트리</Filter>
+    </ClCompile>
+    <ClCompile Include="한영영한사전_C언어버전.c">
+      <Filter>소스 파일\5. 이진탐색트리</Filter>
+    </ClCompile>
+    <ClCompile Include="한영영한사전_C++버전.cpp">
+      <Filter>소스 파일\5. 이진탐색트리</Filter>
+    </ClCompile>
+    <ClCompile Include="최소힙.cpp">
+      <Filter>소스 파일\6. 우선순위 큐%28힙%29</Filter>
+    </ClCompile>
+    <ClCompile Include="최대힙_힙의확인.cpp">
+      <Filter>소스 파일\6. 우선순위 큐%28힙%29</Filter>
+    </ClCompile>
+    <ClCompile Include="허프만코드_그리디알고리즘.c">
+      <Filter>소스 파일\6. 우선순위 큐%28힙%29</Filter>
+    </ClCompile>
+    <ClCompile Include="STL우선순위큐.cpp">
+      <Filter>소스 파일\6. 우선순위 큐%28힙%29</Filter>
+    </ClCompile>
+    <ClCompile Include="인접행렬.cpp">
+      <Filter>소스 파일\7. 그래프 이론</Filter>
+    </ClCompile>
+    <ClCompile Include="인접리스트.cpp">
+      <Filter>소스 파일\7. 그래프 이론</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS_인접행렬.cpp">
+      <Filter>소스 파일\7. 그래프 이론</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS_인접리스트.cpp">
+      <Filter>소스 파일\7. 그래프 이론</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_인접행렬.cpp">
+      <Filter>소스 파일\7. 그래프 이론</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS_인접리스트.cpp">
+      <Filter>소스 파일\7. 그래프 이론</Filter>
+    </ClCompile>
+    <ClCompile Include="연결성분.cpp">
+      <Filter>소스 파일\7. 그래프 이론</Filter>
+    </ClCompile>
+    <ClCompile Include="위상정렬.cpp">
+      <Filter>소스 파일\7. 그래프 이론</Filter>
+    </ClCompile>
+    <ClCompile Include="서로소_Disjoint_Set.cpp">
+      <Filter>소스 파일\8. 가중치 그래프</Filter>
+    </ClCompile>
+    <ClCompile Include="Kruskal&amp;Prim.cpp">
+      <Filter>소스 파일\8. 가중치 그래프</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra.cpp">
+      <Filter>소스 파일\8. 가중치 그래프</Filter>
+    </ClCompile>
+    <ClCompile Include="FloydWarshall.cpp">
+      <Filter>소스 파일\8. 가중치 그래프</Filter>
+    </ClCompile>
+    <ClCompile Include="BellmanFord.cpp">
+      <Filter>소스 파일\8. 가중치 그래프</Filter>
+    </ClCompile>
+    <ClCompile Include="기본정렬알고리즘.cpp">
+      <Filter>소스 파일\9. 정렬 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="심화정렬알고리즘.cpp">
+      <Filter>소스 파일\9. 정렬 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="날짜정렬_기수정렬.cpp">
+      <Filter>소스 파일\9. 정렬 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="MoM선택알고리즘.cpp">
+      <Filter>소스 파일\10. 탐색 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="AVLtree.cpp">
+      <Filter>소스 파일\11. 해싱</Filter>
+    </ClCompile>
+    <ClCompile Include="선형조사법.cpp">
+      <Filter>소스 파일\11. 해싱</Filter>
+    </ClCompile>
+    <ClCompile Include="여러가지탐색방법.cpp">
+      <Filter>소스 파일\10. 탐색 알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="체이닝.cpp">
+      <Filter>소스 파일\11. 해싱</Filter>
+    </ClCompile>
+    <ClCompile Include="STL해싱_영어단어장.cpp">
+      <Filter>소스 파일\11. 해싱</Filter>
+    </ClCompile>
+    <ClCompile Include="재귀_피보나치수열.cpp">
+      <Filter>소스 파일\12. 기타</Filter>
+    </ClCompile>
+    <ClCompile Include="재귀_하노이탑.cpp">
+      <Filter>소스 파일\12. 기타</Filter>
+    </ClCompile>
+    <ClCompile Include="행렬경로_동적프로그래밍.cpp">
+      <Filter>소스 파일\12. 기타</Filter>
+    </ClCompile>
+    <ClCompile Include="백트래킹_미로.cpp">
+      <Filter>소스 파일\12. 기타</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열매칭A_SAN.cpp">
+      <Filter>소스 파일\12. 기타</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열매칭B_RabinKarp.cpp">
+      <Filter>소스 파일\12. 기타</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열매칭C_Automata.cpp">
+      <Filter>소스 파일\12. 기타</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열매칭D_KMP.cpp">
+      <Filter>소스 파일\12. 기타</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

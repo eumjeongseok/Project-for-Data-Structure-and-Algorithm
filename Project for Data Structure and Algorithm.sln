@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project for Data Structure and Algorithm", "Project for Data Structure and Algorithm\Project for Data Structure and Algorithm.vcxproj", "{29744A17-9AC7-4195-A503-4B6047BE74EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29744A17-9AC7-4195-A503-4B6047BE74EE}.Debug|x64.ActiveCfg = Debug|x64
+		{29744A17-9AC7-4195-A503-4B6047BE74EE}.Debug|x64.Build.0 = Debug|x64
+		{29744A17-9AC7-4195-A503-4B6047BE74EE}.Debug|x86.ActiveCfg = Debug|Win32
+		{29744A17-9AC7-4195-A503-4B6047BE74EE}.Debug|x86.Build.0 = Debug|Win32
+		{29744A17-9AC7-4195-A503-4B6047BE74EE}.Release|x64.ActiveCfg = Release|x64
+		{29744A17-9AC7-4195-A503-4B6047BE74EE}.Release|x64.Build.0 = Release|x64
+		{29744A17-9AC7-4195-A503-4B6047BE74EE}.Release|x86.ActiveCfg = Release|Win32
+		{29744A17-9AC7-4195-A503-4B6047BE74EE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E770FB4C-5F81-40B7-9EC8-51AC314B84FE}
+	EndGlobalSection
+EndGlobal
